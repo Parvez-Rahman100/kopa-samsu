@@ -60,7 +60,7 @@ function App() {
         </button>
         {cart.length === 0 && (
           <div className='cart-warning'>
-            <p> Cart is empty </p>
+            <p> Cart is Empty </p>
           </div>
         )}
         {cart.map((item) => (
